@@ -1,0 +1,87 @@
+{
+  "timers": [{
+    "class": "normal",
+    "time": [{
+        "type": "rounds",
+        "num" : 5
+      },
+      {
+        "type": "prepare",
+        "min": 0,
+        "seg": 30
+      },
+      {
+        "type":"round",
+        "min": 1,
+        "seg": 30
+      },
+      {
+        "type": "warning",
+        "min": 0,
+        "seg": 30
+      },
+      {
+        "type": "rest",
+        "min": 1,
+        "seg": 0
+      }
+    ]
+  },
+  {
+    "class": "heavy",
+    "time": [{
+        "type": "rounds",
+        "num" : 7
+      },
+      {
+        "type": "prepare",
+        "min": 1,
+        "seg": 30
+      },
+      {
+        "type":"round",
+        "min": 1,
+        "seg": 30
+      },
+      {
+        "type": "warning",
+        "min": 0,
+        "seg": 30
+      },
+      {
+        "type": "rest",
+        "min": 1,
+        "seg": 0
+      }
+    ]
+  },
+  {
+    "class": "low",
+    "time": [{
+        "type": "rounds",
+        "num" : 3
+      },
+      {
+        "type": "prepare",
+        "min": 1,
+        "seg": 30
+      },
+      {
+        "type":"round",
+        "min": 1,
+        "seg": 30
+      },
+      {
+        "type": "warning",
+        "min": 0,
+        "seg": 30
+      },
+      {
+        "type": "rest",
+        "min": 1,
+        "seg": 0
+      }
+    ]
+  }
+]
+}
