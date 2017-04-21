@@ -17,7 +17,7 @@ angular.module('spiritDojoApp')
     $scope.procesos = [];
     $scope.actual = null;
 
-    $http.get('scripts/timers.json').then(function(data) {
+    $http.get('model/timers.json').then(function(data) {
       $scope.timers = data.data.timers;
     });
 

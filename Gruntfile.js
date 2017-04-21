@@ -220,7 +220,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
@@ -387,6 +387,11 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>/views',
           src: '**/*.html',
           dest: '<%= yeoman.dist %>/views'
+        },{
+          expand: true,
+          cwd: '<%= yeoman.app %>/audio',
+          src: '**/*.html',
+          dest: '<%= yeoman.dist %>/audio'
         },{
           expand : true,
           cwd : 'bower_components/angular-ui-grid',
